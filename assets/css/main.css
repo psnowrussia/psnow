@@ -7,6 +7,13 @@ body {
     background-color: #E2E1E0;
 }
 
+.alarm-message {
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
 .container-fluid {
     padding: 0px 30px;
 }
@@ -80,14 +87,16 @@ main {
 .game-item-wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .game-item {
-    width: 300px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     text-align: center;
     text-transform: uppercase;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .game-item-new {
@@ -105,10 +114,12 @@ main {
 }
 
 .game-item__image {
-    margin-bottom: 5px;
     width: 300px;
     height: 384px;
     object-fit: cover;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
 }
 
 .game-item__language {
