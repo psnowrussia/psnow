@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/main.css">
     <title>PS Now Gaming List</title>
@@ -34,8 +34,8 @@
             <div class="container-fluid">
                 <div class="row">
                         <div class="col-md-4 col-lg-4">
-                            <a class="news-content__button" href="#faq-content" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="faq-content">FAQ</a class="news-content__button">
-                        
+                            <a class="news-content__button" href="#faq-content" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="faq-content">FAQ</a>
+                                
                             </div>
                         <div class="col-md-4 col-lg-4">
                             <a class="news-content__button" href="#description-content" data-toggle="collapse">Пояснения</a>
@@ -55,62 +55,253 @@
               </div>
             </div>
         </div>
-        <section class="games-section">
+        <section class="new-games">
+            <h2 class="text-center">PS NOW Апрель 2020</h2>
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="text-center">Новые игры: Апрель 2020</h2>
-                        <div class="games">
-                            <div class="games__item">
-                                <div class="games__item-control">
-                                    <a class="games__item-links" data-toggle="collapse" href="#spiderman" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                                        <div class="row">
-                                            <div class="col-12 col-lg-2 col-xl-2">
-                                                <img class="games__item-image" src="./assets/img/spider-man.jpeg" alt="">
-                                            </div>
-                                            <div class="col-12 col-lg-2 col-xl-2">
-                                                <span class="games__item-name">Marvel Spider-Man</span>
-                                            </div>
-                                            <div class="col-12 col-lg-3 col-xl-3">
-                                                <span class="games__item-trof">
-                                                    <img src="./assets/img/troffy.png" alt="">
-                                                 </span>
-                                            </div>
-                                            <div class="col-12 col-lg-1 col-xl-1">
-                                                <span class="games__item-genre">Экшн RPG</span>
-                                            </div>
-                                            <div class="col-12 col-lg-2 col-xl-2">
-                                                <span class="games__item-userscore">86</span>
-                                            </div>
-                                            <div class="col-12 col-lg-2 col-xl-2">
-                                                <span>
-                                                    Озвучка: Великобритания <br>
-                                                    Субтитры: Великобритания
-                                                </span>
-                                            </div>
-                                        </div>    
-                                    </a>
+               <div class="game-item-wrapper">
+                    <div class="game-item game-item-new">
+                        <span class="game-item__name">Marvel Spider-Man</span>
+                        <span class="game-item__description">Экшн(открытый мир) 2018г</span>
+                        <span>Озвучка(рус): Британия</span class="game-item__language">
+                        <span class="game-item__language">Субтитры(рус): Британия</span>
+                        <img class="game-item__image" src="https://media.gamestop.com/i/gamestop/10131620/Marvels-Spider-Man" alt="">
+                        <span class="game-item__score">User Rating: 86</span>
+                        <img class="game-item__trophy" src="./assets/img/troffy.png" alt="">
+                        <a target="_blank" class="game-item__links" href="https://www.metacritic.com/game/playstation-4/marvels-spider-man">Рецензия Metacritic</a>
+                        <a target="_blank" class="game-item__links" href="https://www.youtube.com/watch?v=DONnSgJpOzk">Рецензия Youtube</a>
+                        <a target="_blank" class="game-item__links" href="https://www.stratege.ru/ps4/games/marvels_spider-man/trophies#args:ajax=1">Платина</a>
+                    </div>
+                
+                    <div class="game-item game-item-new">
+                                <span class="game-item__name">Just Cause 4</span>
+                                <span class="game-item__description">Экшн(открытый мир)</span>
+                                <span>Озвучка(рус): Нет</span class="game-item__language">
+                                <span class="game-item__language">Суб(рус): Брит. Порт. Фин.</span>
+                                <img class="game-item__image" src="https://avatars.mds.yandex.net/get-mpic/1349652/img_id6337705832152454430.jpeg/orig" alt="">
+                                <span class="game-item__score">User Rating: 50</span>
+                                <img class="game-item__trophy" src="./assets/img/justcausetrof.png" alt="">
+                                <a target="_blank" class="game-item__links" href="https://www.metacritic.com/game/playstation-4/just-cause-4">Рецензия Metacritic</a>
+                                <a target="_blank" class="game-item__links" href="https://www.youtube.com/watch?v=PuYt1VEuCJU">Рецензия Youtube</a>
+                                <a target="_blank" class="game-item__links" href="https://www.stratege.ru/ps4/games/just_cause_4/trophies">Платина</a>
+                    </div>
+                
+                    <div class="game-item game-item-new">
+                                <span class="game-item__name">The Golf Club 2019</span>
+                                <span class="game-item__description">Симулятор гольфа</span>
+                                <span>Озвучка(рус): Нет</span class="game-item__language">
+                                <span class="game-item__language">Суб(рус): Нет</span>
+                                <img class="game-item__image" src="https://torrent-igruha.ru/uploads/posts/2019-08/1565346201_the_golf_club_2019_cover.jpg" alt="">
+                                <span class="game-item__score">User Rating: 59</span>
+                                <div class="game-item__trophy">
+                                    Трофеев: 30 <br>
+                                    Есть платина
                                 </div>
-                                <div class="collapse multi-collapse" id="spiderman">
-                                    <div class="card card-body">
-                                        <div class="games__item-description">
-                                            Год выпуска: 2018 <br>
-                                        </div>
-                                        <div class="games__item-link">
-                                            <a target="_blank" href="https://www.metacritic.com/game/playstation-4/marvels-spider-man">Метакритик</a>
-                                            <a target="_blank" href="https://www.youtube.com/watch?v=DONnSgJpOzk">Обзор на Youtube</a>
-                                            <a target="_blank" href="https://www.stratege.ru/ps4/games/marvels_spider-man/">Прохождение на платину</a>
-                                        </div>
-                                    </div>
-                                  </div>
-                            </div>
-                        </div>
+                                <a target="_blank" class="game-item__links" href="https://www.metacritic.com/game/playstation-4/the-golf-club-2019-featuring-pga-tour">Рецензия Metacritic</a>
+                                <a target="_blank" class="game-item__links" href="https://www.youtube.com/watch?v=nCuSNR8vn6o">Рецензия Youtube</a>
+                                <a target="_blank" class="game-item__links" href="https://www.stratege.ru/ps4/games/the_golf_club_2019/trophies#args:ajax=1">Платина</a>
+                    </div>
+               </div>
+            </div>
+        </section>
+        <section class="games">
+            <h2 style="margin-bottom: 70px;" class="text-center">Игры PS NOW (в порядке рейтинга Metacritic)</h2>
+            <div class="container-fluid">
+
+                <div class="row games-row">
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="game-item">
+                            <span class="game-item__name">Bloodborne</span>
+                            <span class="game-item__description">Souls Like 2015г</span>
+                            <span>Озвучка(рус): Нет</span class="game-item__language">
+                            <span class="game-item__language">Суб(рус): Брит. Порт. Фин.</span>
+                            <img class="game-item__image" src="https://upload.wikimedia.org/wikipedia/ru/thumb/c/c7/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Bloodborne.jpg/274px-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Bloodborne.jpg" alt="">
+                            <span class="game-item__score">User Rating: 89</span>
+                            <img class="game-item__trophy" src="./assets/img/bloodborne.png" alt="">
+                            <a target="_blank" class="game-item__links" href="https://www.metacritic.com/game/playstation-4/bloodborne">Рецензия Metacritic</a>
+                            <a target="_blank" class="game-item__links" href="https://www.youtube.com/watch?v=BF2EItgrqu4">Рецензия Youtube</a>
+                            <a target="_blank" class="game-item__links" href="https://www.stratege.ru/ps4/games/project_beast/trophies#args:ajax=1">Платина</a>
                         </div>
                     </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="game-item">
+                            <span class="game-item__name">Hollow Knight</span>
+                            <span class="game-item__description">2D Платформер, Экшн</span>
+                            <span>Озвучка(рус): Нет</span class="game-item__language">
+                            <span class="game-item__language">Суб(рус): Брит. Порт. Фин. Кан.</span>
+                            <img class="game-item__image" src="https://vignette.wikia.nocookie.net/hollowknight/images/1/15/Lifeblood_Update.jpg/revision/latest/top-crop/width/360/height/450?cb=20180324110936&path-prefix=ru" alt="">
+                            <span class="game-item__score">User Rating: 87</span>
+                            <div class="game-item__trophy">
+                                Трофеев: 35
+                                Платина: да
+                            </div>
+                            <a target="_blank" class="game-item__links" href="https://www.metacritic.com/game/playstation-4/hollow-knight">Рецензия Metacritic</a>
+                            <a target="_blank" class="game-item__links" href="https://www.youtube.com/watch?v=MFThwcc3e4s">Рецензия Youtube</a>
+                            <a target="_blank" class="game-item__links" href="https://www.stratege.ru/ps4/games/hollow_knight/trophies#args:ajax=1">Платина</a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="game-item">
+                            <span class="game-item__name">Rocket League</span>
+                            <span class="game-item__description">Гонки Спорт 2015г</span>
+                            <span>Озвучка(рус): Нет</span class="game-item__language">
+                            <span class="game-item__language">Суб(рус): Брит. Порт. Фин. Кан.</span>
+                            <img class="game-item__image" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Rocket_League_coverart.jpg" alt="">
+                            <span class="game-item__score">User Rating: 85</span>
+                            <img class="game-item__trophy" src="/assets/img/rocketlegua.png" alt="">
+                            <a target="_blank" class="game-item__links" href="https://www.metacritic.com/game/playstation-4/rocket-league">Рецензия Metacritic</a>
+                            <a target="_blank" class="game-item__links" href="https://www.youtube.com/watch?v=87dOr-VCVBM">Рецензия Youtube</a>
+                            <a target="_blank" class="game-item__links" href="https://www.stratege.ru/ps4/games/rocket_league/trophies#args:ajax=1">Платина</a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="game-item">
+                            <span class="game-item__name">Doom</span>
+                            <span class="game-item__description">Экшн 2016г</span>
+                            <span>Озвучка(рус): Брит. Фин. Порт.</span class="game-item__language">
+                            <span class="game-item__language">Суб(рус): Брит. Фин. Порт.</span>
+                            <img class="game-item__image" src="https://upload.wikimedia.org/wikipedia/ru/8/8c/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Doom_Eternal.jpg" alt="">
+                            <span class="game-item__score">User Rating: 84</span>
+                            <img class="game-item__trophy" src="/assets/img/doom.png" alt="">
+                            <a target="_blank" class="game-item__links" href="https://www.metacritic.com/game/playstation-4/doom">Рецензия Metacritic</a>
+                            <a target="_blank" class="game-item__links" href="https://www.youtube.com/watch?v=u5cVue-zfiw">Рецензия Youtube</a>
+                            <a target="_blank" class="game-item__links" href="https://www.stratege.ru/ps4/games/doom/trophies/spisok_1#args:ajax=1">Платина</a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="game-item">
+                            <span class="game-item__name">Until Dawn</span>
+                            <span class="game-item__description">Интерактив. Хоррор 2015</span>
+                            <span>Озвучка(рус): Фин. Порт.</span>
+                            <span class="game-item__language">Суб(рус): Фин. Порт.</span>
+                            <img class="game-item__image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRg0qA2QpQafoO3WLu9YZxLP7CmHY34LPZmZ3qnkqyDIRIaVd8s&usqp=CAU" alt="">
+                            <span class="game-item__score">User Rating: 83</span>
+                            <img class="game-item__trophy" src="./assets/img/untildawn.png" alt="">
+                            <a target="_blank" class="game-item__links" href="https://www.metacritic.com/game/playstation-4/until-dawn">Рецензия Metacritic</a>
+                            <a target="_blank" class="game-item__links" href="https://www.youtube.com/watch?v=zrksHISNyAM">Рецензия Youtube</a>
+                            <a target="_blank" class="game-item__links" href="https://www.stratege.ru/ps4/games/until_dawn/trophies#args:ajax=1">Платина</a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="game-item">
+                            <span class="game-item__name">MGS V: The Phantom Pain</span>
+                            <span class="game-item__description">Экшн, Открытый мир 2015г</span>
+                            <span>Озвучка(рус): Нет</span>
+                            <span class="game-item__language">Суб(рус): Брит. Кан. Фин. Порт.</span>
+                            <img class="game-item__image" src="https://upload.wikimedia.org/wikipedia/ru/8/8a/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Metal_Gear_Solid_V_The_Phantom_Pain.jpg" alt="">
+                            <span class="game-item__score">User Rating: 82</span>
+                            <img class="game-item__trophy" src="./assets/img/mgs5pain.png" alt="">
+                            <a target="_blank" class="game-item__links" href="https://www.metacritic.com/game/playstation-4/metal-gear-solid-v-the-phantom-pain">Рецензия Metacritic</a>
+                            <a target="_blank" class="game-item__links" href="https://www.youtube.com/watch?v=MRi-CH1xbXQ">Рецензия Youtube</a>
+                            <a target="_blank" class="game-item__links" href="https://www.stratege.ru/ps4/games/metal_gear_solid_v_the_phantom_pain/trophies#args:ajax=1">Платина</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row games-row">
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="game-item">
+                            <span class="game-item__name">Bloodborne</span>
+                            <span class="game-item__description">Souls Like 2015г</span>
+                            <span>Озвучка(рус): Нет</span class="game-item__language">
+                            <span class="game-item__language">Суб(рус): Брит. Порт. Фин.</span>
+                            <img class="game-item__image" src="https://upload.wikimedia.org/wikipedia/ru/thumb/c/c7/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Bloodborne.jpg/274px-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Bloodborne.jpg" alt="">
+                            <span class="game-item__score">User Rating: 89</span>
+                            <img class="game-item__trophy" src="./assets/img/bloodborne.png" alt="">
+                            <a target="_blank" class="game-item__links" href="https://www.metacritic.com/game/playstation-4/bloodborne">Рецензия Metacritic</a>
+                            <a target="_blank" class="game-item__links" href="https://www.youtube.com/watch?v=BF2EItgrqu4">Рецензия Youtube</a>
+                            <a target="_blank" class="game-item__links" href="https://www.stratege.ru/ps4/games/project_beast/trophies#args:ajax=1">Платина</a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="game-item">
+                            <span class="game-item__name">Hollow Knight</span>
+                            <span class="game-item__description">2D Платформер, Экшн</span>
+                            <span>Озвучка(рус): Нет</span class="game-item__language">
+                            <span class="game-item__language">Суб(рус): Брит. Порт. Фин. Кан.</span>
+                            <img class="game-item__image" src="https://vignette.wikia.nocookie.net/hollowknight/images/1/15/Lifeblood_Update.jpg/revision/latest/top-crop/width/360/height/450?cb=20180324110936&path-prefix=ru" alt="">
+                            <span class="game-item__score">User Rating: 87</span>
+                            <div class="game-item__trophy">
+                                Трофеев: 35
+                                Платина: да
+                            </div>
+                            <a target="_blank" class="game-item__links" href="https://www.metacritic.com/game/playstation-4/hollow-knight">Рецензия Metacritic</a>
+                            <a target="_blank" class="game-item__links" href="https://www.youtube.com/watch?v=MFThwcc3e4s">Рецензия Youtube</a>
+                            <a target="_blank" class="game-item__links" href="https://www.stratege.ru/ps4/games/hollow_knight/trophies#args:ajax=1">Платина</a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="game-item">
+                            <span class="game-item__name">Rocket League</span>
+                            <span class="game-item__description">Гонки Спорт 2015г</span>
+                            <span>Озвучка(рус): Нет</span class="game-item__language">
+                            <span class="game-item__language">Суб(рус): Брит. Порт. Фин. Кан.</span>
+                            <img class="game-item__image" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Rocket_League_coverart.jpg" alt="">
+                            <span class="game-item__score">User Rating: 85</span>
+                            <img class="game-item__trophy" src="/assets/img/rocketlegua.png" alt="">
+                            <a target="_blank" class="game-item__links" href="https://www.metacritic.com/game/playstation-4/rocket-league">Рецензия Metacritic</a>
+                            <a target="_blank" class="game-item__links" href="https://www.youtube.com/watch?v=87dOr-VCVBM">Рецензия Youtube</a>
+                            <a target="_blank" class="game-item__links" href="https://www.stratege.ru/ps4/games/rocket_league/trophies#args:ajax=1">Платина</a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="game-item">
+                            <span class="game-item__name">Doom</span>
+                            <span class="game-item__description">Экшн 2016г</span>
+                            <span>Озвучка(рус): Брит. Фин. Порт.</span class="game-item__language">
+                            <span class="game-item__language">Суб(рус): Брит. Фин. Порт.</span>
+                            <img class="game-item__image" src="https://upload.wikimedia.org/wikipedia/ru/8/8c/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Doom_Eternal.jpg" alt="">
+                            <span class="game-item__score">User Rating: 84</span>
+                            <img class="game-item__trophy" src="/assets/img/doom.png" alt="">
+                            <a target="_blank" class="game-item__links" href="https://www.metacritic.com/game/playstation-4/doom">Рецензия Metacritic</a>
+                            <a target="_blank" class="game-item__links" href="https://www.youtube.com/watch?v=u5cVue-zfiw">Рецензия Youtube</a>
+                            <a target="_blank" class="game-item__links" href="https://www.stratege.ru/ps4/games/doom/trophies/spisok_1#args:ajax=1">Платина</a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="game-item">
+                            <span class="game-item__name">Until Dawn</span>
+                            <span class="game-item__description">Интерактив. Хоррор 2015</span>
+                            <span>Озвучка(рус): Фин. Порт.</span>
+                            <span class="game-item__language">Суб(рус): Фин. Порт.</span>
+                            <img class="game-item__image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRg0qA2QpQafoO3WLu9YZxLP7CmHY34LPZmZ3qnkqyDIRIaVd8s&usqp=CAU" alt="">
+                            <span class="game-item__score">User Rating: 83</span>
+                            <img class="game-item__trophy" src="./assets/img/untildawn.png" alt="">
+                            <a target="_blank" class="game-item__links" href="https://www.metacritic.com/game/playstation-4/until-dawn">Рецензия Metacritic</a>
+                            <a target="_blank" class="game-item__links" href="https://www.youtube.com/watch?v=zrksHISNyAM">Рецензия Youtube</a>
+                            <a target="_blank" class="game-item__links" href="https://www.stratege.ru/ps4/games/until_dawn/trophies#args:ajax=1">Платина</a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="game-item">
+                            <span class="game-item__name">MGS V: The Phantom Pain</span>
+                            <span class="game-item__description">Экшн, Открытый мир 2015г</span>
+                            <span>Озвучка(рус): Нет</span>
+                            <span class="game-item__language">Суб(рус): Брит. Кан. Фин. Порт.</span>
+                            <img class="game-item__image" src="https://upload.wikimedia.org/wikipedia/ru/8/8a/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Metal_Gear_Solid_V_The_Phantom_Pain.jpg" alt="">
+                            <span class="game-item__score">User Rating: 82</span>
+                            <img class="game-item__trophy" src="./assets/img/mgs5pain.png" alt="">
+                            <a target="_blank" class="game-item__links" href="https://www.metacritic.com/game/playstation-4/metal-gear-solid-v-the-phantom-pain">Рецензия Metacritic</a>
+                            <a target="_blank" class="game-item__links" href="https://www.youtube.com/watch?v=MRi-CH1xbXQ">Рецензия Youtube</a>
+                            <a target="_blank" class="game-item__links" href="https://www.stratege.ru/ps4/games/metal_gear_solid_v_the_phantom_pain/trophies#args:ajax=1">Платина</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
-    </main>
     <footer>
 
     </footer>
