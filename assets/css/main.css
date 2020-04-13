@@ -8,6 +8,7 @@ body {
 }
 
 .alarm-message {
+    display: none;
     margin-bottom: 40px;
     padding: 30px;
     background-color: #fff;
